@@ -1,0 +1,10 @@
+<html>
+  <body>
+    <h1>Index of {{path}}</h1>
+    <ul>
+      {% for item in items %}
+        <li>{% if item.is_dir %}&#128193;{% endif %} <a href="{{item.path}}">{{ item.name|e }}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
