@@ -10,3 +10,4 @@ actix-files = { version = "0.6.2", features = ["actix-server"] }
 actix-web = "4.1.0"
 askama = { version = "0.11.1", features = ["with-actix-web", "mime", "mime_guess"] }
 askama_actix = "0.13.0"
+dotenv = "0.15.0"
