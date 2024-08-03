@@ -471,10 +471,12 @@ name = "file_share"
 version = "0.1.0"
 dependencies = [
  "actix-files",
+ "actix-service",
  "actix-web",
  "askama",
  "askama_actix",
  "dotenv",
+ "futures-core",
 ]
 
 [[package]]
@@ -511,9 +513,9 @@ dependencies = [
 
 [[package]]
 name = "futures-core"
-version = "0.3.21"
+version = "0.3.30"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3"
+checksum = "dfc6580bb841c5a68e9ef15c77ccc837b40a7504914d52e47b8b0e9bbda25a1d"
 
 [[package]]
 name = "futures-sink"
